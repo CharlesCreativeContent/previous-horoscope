@@ -1,0 +1,91 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.clr {
+  clear: both;
+}
+
+body {
+  padding-top: 270px;
+  background-image: url("https://i.imgur.com/nBtWOUD.png");
+  background-color: #ebe7dc;
+  background-position: top;
+  background-size: cover;
+  text-align: center;
+  height: 2000px;
+}
+
+h1,
+h3,
+p {
+  text-align: center;
+  color: black;
+  font-family: fantasy;
+}
+
+#horoscope {
+  color: black;
+  text-align: center;
+  padding: 0 15%;
+}
+
+a {
+  color: black;
+}
+
+[type="date"] {
+  background: transparent;
+  border: none;
+}
+
+button {
+  border-radius: 50%;
+  padding: 3px 8px;
+  margin: 0 auto;
+}
+
+#button1.hover {
+  border-color: blue;
+  background: rgba(0, 0, 255, 0.1);
+}
+
+#button2.hover {
+  border-color: yellow;
+  background: rgba(255, 255, 0, 0.1);
+}
+
+#button3.hover {
+  border-color: red;
+  background: rgba(255, 0, 0, 0.1);
+}
+
+#button4.hover {
+  border-color: green;
+  background: rgba(0, 255, 0, 0.1);
+}
+
+#button1:focus {
+  outline: none;
+  border-color: blue;
+  background: rgba(0, 0, 255, 0.1);
+}
+#button2:focus {
+  outline: none;
+  border-color: yellow;
+  background: rgba(255, 255, 0, 0.1);
+}
+#button3:focus {
+  outline: none;
+  border-color: red;
+  background: rgba(255, 0, 0, 0.1);
+}
+#button4:focus {
+  outline: none;
+  border-color: green;
+  background: rgba(0, 255, 0, 0.1);
+}

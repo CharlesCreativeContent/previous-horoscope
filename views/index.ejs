@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Sorting Horoscope</title>
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <h1 id="house">What House are you?</h1>
+  <button onclick="ravenClaw()" id="button1">Ravenclaw</button><button onclick="hufflePuff()" id="button2">Hufflepuff</button>
+  <button onclick="gryffindor()" id="button3">Gryffindor</button>
+  <button onclick="slytherin()" id="button4">Slytherin</button>
+
+  <h3>If you don't know your house, <a href="https://my.wizardingworld.com/sorting-hat" target="_blank">Get Sorted Here!</a></h3>
+  <br>
+  <p>Enter your Birthday to get your House Horoscope!</p>
+  <input type="date" id="date"></input>
+  <a href='/zodiac' onclick=getHoroscope()><input type="submit" value="Submit"></input></a>
+  <p id="horoscope"></p>
+</body>
+<script src="main.js"></script>
+
+</html>
